@@ -66,6 +66,25 @@ textarea {
   font-size: 0.82rem;
 }
 
+/* Prominent name styling */
+.hero-name {
+  margin: 0 0 8px;
+  font-size: clamp(2.8rem, 6vw, 4.6rem);
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #38bdf8 0%, #06b6d4 50%, #a78bfa 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 8px 30px rgba(7, 11, 22, 0.6);
+}
+
+.hero-name .hero-last {
+  display: inline-block;
+  transform: translateY(2px);
+}
+
 .hero h1 {
   margin: 0;
   font-size: clamp(2.6rem, 4vw, 4.2rem);
