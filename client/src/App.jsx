@@ -73,7 +73,7 @@ function App() {
     <div className="app-shell">
       <header className="hero" data-animate>
         <div className="hero-copy">
-          <h2 className="hero-name"><span>Mr. </span> 
+          <h2 className="hero-name"><span>Mr.Michael </span> 
           <span className="hero-last">Michael</span>
           </h2>
           <h1>Professional Crypto Community Manager & Support Specialist</h1>
