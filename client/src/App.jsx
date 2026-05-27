@@ -8,7 +8,9 @@ const skills = [
   'Wallet deposits & withdrawals',
   'Content posting & social media',
   'Basic Canva graphic design',
-  'English / Nepali / Hindi fluency'
+  // 'Language: English | Nepali | Hindi ',
+  'Trading experience: Crypto, forex, commodities',
+  'Trading Aanalysis: Technical analysis, market trends, and trading psychology'
 ];
 
 const services = [
@@ -23,6 +25,14 @@ const services = [
   {
     title: 'Content & Engagement',
     description: 'Create announcements, schedule posts, and keep communities active with meaningful updates and responses.'
+  },
+  {
+    title: 'Trading Support',
+    description: 'Provide insights on market trends, technical analysis, and trading psychology to support community members.'
+  },
+  {
+    title: 'Social Media Management',
+    description: 'Handle social media content posting, engagement, and community growth strategies for crypto projects.'
   }
 ];
 
@@ -63,8 +73,8 @@ function App() {
     <div className="app-shell">
       <header className="hero" data-animate>
         <div className="hero-copy">
-          <h2 className="hero-name"><span>Sushant Tuladhar</span> 
-          {/* <span className="hero-last">Tuladhar</span> */}
+          <h2 className="hero-name"><span>Sushant </span> 
+          <span className="hero-last">Tuladhar</span>
           </h2>
           <h1>Professional Crypto Community Manager & Support Specialist</h1>
           <p className="hero-text">
@@ -96,10 +106,10 @@ function App() {
               <strong>8+ hrs</strong>
               <span>Daily availability</span>
             </div>
-            <div>
+            {/* <div>
               <strong>$10–20/hr</strong>
               <span>Target rate</span>
-            </div>
+            </div> */}
             <div>
               <strong>4+ yrs</strong>
               <span>Trading experience</span>
@@ -115,8 +125,9 @@ function App() {
             <p>I help crypto communities grow with trust, discipline, and fast support.</p>
           </div>
           <p>
-            My work combines trading knowledge with community operations. I support members through
-            wallet issues, exchange questions, deposits, withdrawals, and policy enforcement.
+            My work combines trading knowledge with crypto community operations. I support any kind of members through
+            wallet issues, crypto exchange questions, deposits, withdrawals, and policy enforcement. 
+            Can handle social media content posting, announcements, and engagement to keep communities active and informed.
             Strong communication and calm moderation keep communities safe and engaged.
           </p>
         </section>
@@ -124,7 +135,7 @@ function App() {
         <section id="services" className="section-card" data-animate>
           <div className="section-head">
             <h2>What I offer</h2>
-            <p>Services built for crypto projects, exchanges, and blockchain communities.</p>
+            <p>Services built for crypto projects, exchanges, blockchain communities and social media handling.</p>
           </div>
           <div className="service-grid">
             {services.map((item) => (
